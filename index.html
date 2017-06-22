@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>90s Cartoon Trivia Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Permanent+Marker|Press+Start+2P" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<!-- Creating my header and title row -->
+	<div class="container">
+		<div class="header">
+			<div class="title row"> 
+				<h1 class="text-center">Let's play 90s Cartoon Trivia!</h1>
+			</div>
+<!-- Creating my row for the questions and answers -->
+			<div class="content row">
+				<div class="text-center">
+					<p id="question"></p>
+				</div>
+			</div>
+
+			<div class="reveal row">
+				<div class="text-center">
+					<p id="answer"></p>
+				</div>
+			</div>
+
+			<div class="result row">
+				<div class="text-center">
+					<p id="grades"></p>
+				</div>
+			</div>
+		</div>
+<!-- Creating my start button -->
+		<div class="container">
+			<div class="row">
+			
+			<button id="start" type="button" class="btn-success center-block"><span id="btn_name">Press Button To Start</span></button>
+
+			</div>
+		</div>
+<!-- Creating my timer -->
+			<div class="content row">
+				<div>
+				  <p id="timer" class="text-center"></p>
+				</div>
+			</div>
+<!-- Creating my question buttons and their section -->
+			<div class="content row">
+				<div class="text-center">
+					<button id="choice1" type="button" class="btn btn-round-lg btn-block active choices"></button>
+					<button id="choice2" type="button" class="btn btn-round-lg btn-block active choices"></button>
+					<button id="choice3" type="button" class="btn btn-round-lg btn-block active choices"></button>
+					<button id="choice4" type="button" class="btn btn-round-lg btn-block active choices"></button>
+				</div>
+			</div>
+			
+			<div class="reveal row">
+				<div class="text-center">
+					<div id="answer-img"></div>
+				</div>
+			</div>
+
+			<div class="result row">
+				<div class="text-center">
+					<p id="correct"></p>
+					<br>
+					<p id="incorrect"></p>
+					<br>
+					<p id="unanswered"></p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="classic-pic row">
+					<img src="assets/images/90s.png" alt="classic 90s">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<audio id="theme"><source src="assets/audio/43 Cartoon Theme Song MashupEnsemble Connect.mp3"></audio>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+	</script>>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

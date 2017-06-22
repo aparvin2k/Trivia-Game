@@ -1,0 +1,90 @@
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Press Start 2P', cursive;
+	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Permanent Marker', cursive;
+	background-color: skyblue;
+}
+
+.header {
+	height: 250px;
+	margin-top: 10px;
+	border-radius: 22.5px;
+	border: ridge 6px brown;
+	background-image: url(../images/chalkboard.jpg);
+}
+
+.header h1 {
+	font-size: 68px;
+	font-family: 'Permanent Marker';
+	color: white;
+	padding-top: 50px;
+}
+
+.header p {
+	font-size: 32px;
+	font-family: 'Permanent Marker';
+	color: white;
+	padding-top: 50px;
+}
+
+.btn {
+	width: 60%;
+	margin: 10px auto 10px auto;
+	font-size: 20px;
+	font-family: 'Luckiest Guy';
+	border: ridge gray;
+	background: #fff;
+}
+
+.btn:hover{
+	background: pink;
+}
+
+.btn-round-lg {
+	border-radius: 22.5px;
+}
+.btn.active:focus {
+	outline: 0;
+}
+
+#start {
+	width: 250px;
+	height: 100px;
+	margin-top: 30px;
+	font-size: 24px;
+}
+
+#timer {
+	font-size: 72px;
+	font-weight: bold;
+	font-family: Arial;
+	color: #4bea56;
+	width: 25%;
+	margin: 30px auto 30px auto;
+	padding-top: 10px;
+	background: gray;
+	border: ridge 2px black;
+	border-radius: 12.5px;
+}
+
+.result p {
+	font-size: 36px;
+	font-family: 'Luckiest Guy';
+	color: black;
+}
+
+#grades {
+	font-size: 72px;
+	font-family: 'Permanent Marker';
+	color: white;
+	padding-top: 50px;
+}
+
+#answer-img {
+	margin-top: 30px;
+}
+
